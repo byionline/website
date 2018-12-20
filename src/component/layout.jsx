@@ -50,7 +50,7 @@ class Layout extends Component {
   state = { mobileOpen: true };
   handleDrawerToggle = () => {
     this.setState(state => ({ mobileOpen: !state.mobileOpen }));
-    console.log("Clicked");
+    
   };
   render() {
     const { classes } = this.props;
